@@ -1,0 +1,19 @@
+.lista-ingredientes {
+    margin: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+    border: solid 3px $gris;   
+    background-color: $amarillo;
+    
+    h3 {
+        margin: 10px;
+        @extend %estiloSubtitulo;
+    }
+    ul {
+        margin-left: 20px;
+        font-size: $fontSizeGrande/3;
+        line-height: 150%;
+        list-style: circle;
+        
+    }
+}

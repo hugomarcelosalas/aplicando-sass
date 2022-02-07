@@ -1,0 +1,10 @@
+.imagen{
+    
+    img{
+        width: $ancho *0.60;  
+    }
+    h2{
+        font-size: $fontSizeGrande - 1.5rem;  
+        color: $negro;
+    }
+}

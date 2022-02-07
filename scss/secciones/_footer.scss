@@ -1,0 +1,13 @@
+.footer {
+    background-color: $negro;
+    text-align: center;
+    
+    h3{
+        font-size: $fontSizeGrande - 2rem;
+        color: $blanco;
+    }
+    h4{
+        font-size: $fontSizeGrande/3;
+        color: $amarillo;
+    }
+}

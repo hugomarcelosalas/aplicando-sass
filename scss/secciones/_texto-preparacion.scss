@@ -1,0 +1,11 @@
+.texto-preparacion {
+    padding: 20px;  
+    h3 {
+        margin: 10px;
+        @extend %estiloSubtitulo;
+    }
+    p{
+        @extend %estiloParrafo;
+      
+    }
+}
